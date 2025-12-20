@@ -29,9 +29,9 @@ const Navigation = () => {
                         duration-400 
                         linear
                         shadow-2xl outline-0`}>
-                        <NavLink className={`text-black ml-2 p-1 hover:bg-purple-300 mt-1 rounded  nav ${open ? "opacity-100": "opacity-0"}`} to={'/home'}>Home</NavLink>
-                        <NavLink className={`text-black ml-2 p-1 hover:bg-purple-300 mt-1 rounded  nav ${open ? "opacity-100": "opacity-0"}`} to={'/apps'}>Apps</NavLink>
-                        <NavLink className={`text-black ml-2 p-1 hover:bg-purple-300 mt-1 rounded  nav ${open ? "opacity-100": "opacity-0"}`} to={'/installation'}>Installation</NavLink>
+                        <NavLink className={`text-black ml-2 p-1 hover:bg-purple-300 mt-1 font-semibold rounded  nav ${open ? "opacity-100": "opacity-0"}`} to={'/home'}>Home</NavLink>
+                        <NavLink className={`text-black ml-2 p-1 hover:bg-purple-300 mt-1 font-semibold rounded  nav ${open ? "opacity-100": "opacity-0"}`} to={'/apps'}>Apps</NavLink>
+                        <NavLink className={`text-black ml-2 p-1 hover:bg-purple-300 mt-1 font-semibold rounded  nav ${open ? "opacity-100": "opacity-0"}`} to={'/installation'}>Installation</NavLink>
                     </div>
                     <img src={Logo} alt="logo" className="w-10 h-10"/>
                     <h1 className="uppercase font-bold text-purple-500">hero.io</h1>
