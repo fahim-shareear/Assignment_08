@@ -10,7 +10,7 @@ const Navigation = () => {
         <div className='bg-white'>
             <div className="lg:max-w-11/12 mx-auto flex justify-between items-center p-1">
                 <div className="md:max-w-30 flex items-center gap-2 logo">
-                    <button className="lg:hidden cursor-pointer" onClick={() => setOpen(!open)}>
+                    <button className="lg:hidden cursor-pointer transition-all duration-400 linear" onClick={() => setOpen(!open)}>
                         {
                             open ? <X className="text-black"></X> : <Menu className="text-black"></Menu>
                         }
