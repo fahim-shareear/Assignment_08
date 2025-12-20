@@ -3,6 +3,7 @@ import Home from '../pages/Home';
 import { Outlet } from 'react-router';
 import Navigation from '../pages/Navigation';
 import Footer from '../pages/Footer';
+import '../../App.css';
 
 const Root = () => {
     return (
@@ -14,4 +15,4 @@ const Root = () => {
     );
 };
 
-export default Root;
+export default Root
