@@ -10,9 +10,17 @@ body{
 a.active{
     text-decoration: underline;
     color: purple;
+    font: bold;
 }
 
 .nav{
     transition: all 0.4s linear;
     font-size: 13px;
+}
+
+
+.nav:hover {
+  background: linear-gradient(180deg, #7520b8, #b870fc);
+  transition: all 0.4s linear;
+  color: white;
 }

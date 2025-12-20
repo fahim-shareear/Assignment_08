@@ -37,9 +37,9 @@ const Navigation = () => {
                     <h1 className="uppercase font-bold text-purple-500">hero.io</h1>
                 </div>
                 <div className="nav-menu hidden lg:block">
-                    <NavLink className="text-black mr-10 nav" to={'/home'}>Home</NavLink>
-                    <NavLink className="text-black mr-10 nav" to={'/apps'}>Apps</NavLink>
-                    <NavLink className="text-black mr-10 nav" to={'/installation'}>Installation</NavLink>
+                    <NavLink className="text-black mr-10 font-bold p-2 text-xl rounded nav" to={'/home'}>Home</NavLink>
+                    <NavLink className="text-black mr-10 font-bold p-2 text-xl rounded nav" to={'/apps'}>Apps</NavLink>
+                    <NavLink className="text-black mr-10 font-bold p-2 text-xl rounded nav" to={'/installation'}>Installation</NavLink>
                 </div>
                 <div>
                     <button className="flex items-center cursor-pointer bg-linear-to-br from-purple-800 to-purple-400 rounded">
