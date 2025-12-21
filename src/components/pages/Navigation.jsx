@@ -3,11 +3,12 @@ import Logo from '../../assets/logo.png';
 import { NavLink } from 'react-router';
 import Gitlogo from '../../assets/github-mark-white.svg';
 import { Menu, X } from 'lucide-react';
+import '../../App.css';
 
 const Navigation = () => {
     const [open, setOpen] = useState(false)
     return (
-        <div className='bg-white'>
+        <div className='bg-white rounded-b-xl sticky top-0'>
             <div className="lg:max-w-11/12 mx-auto flex justify-between items-center p-1">
                 <div className="md:max-w-30 flex items-center gap-2 logo">
                     <button className="lg:hidden cursor-pointer transition-all duration-400 linear" onClick={() => setOpen(!open)}>
@@ -52,4 +53,4 @@ const Navigation = () => {
     );
 };
 
-export default Navigation;<h1>This is the navbar</h1>
+export default Navigation;

@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="m-5 lg:max-w-11/12 mx-auto p-2 flex flex-col items-start gap-6
                 lg:flex-row lg:items-center lg:justify-between">
                 <div className="max-w-150">
-                    <div className="flex items-center ml-1">
+                    <div className="flex items-center ml-1 gap-2">
                         <img src={Logo} alt="logo" className="w-10 h-10"/>
                         <h1 className="uppercase font-bold text-purple-500">hero.io</h1>
                     </div>

@@ -1,0 +1,193 @@
+[
+  {
+    "image": "https://picsum.photos/200?1",
+    "title": "Photo Editor Pro",
+    "companyName": "PixelSoft",
+    "id": 1,
+    "description": "An advanced and professional photo editing application that offers powerful filters, AI-based enhancement tools, color correction, background removal, and creative effects suitable for both beginners and professionals.",
+    "size": 45,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": "9m",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?2",
+    "title": "Music Player X",
+    "companyName": "SoundWave",
+    "id": 2,
+    "description": "A modern music player that supports both offline and online playback, includes a built-in equalizer, playlist management, background play, and smooth audio performance.",
+    "size": 32,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": "5m",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 430 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?3",
+    "title": "Fitness Tracker",
+    "companyName": "Healthify",
+    "id": 3,
+    "description": "A complete fitness and health tracking app that helps users monitor workouts, daily steps, calories burned, heart activity, and long-term fitness progress with detailed insights.",
+    "size": 28,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": "12m",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?4",
+    "title": "Note Keeper",
+    "companyName": "WriteWell",
+    "id": 4,
+    "description": "A lightweight and secure note-taking application designed for organizing ideas, saving important information, syncing across devices, and ensuring privacy with encryption support.",
+    "size": 15,
+    "reviews": 650,
+    "ratingAvg": 4.0,
+    "downloads": "2m",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 180 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?5",
+    "title": "Weather Now",
+    "companyName": "SkyLabs",
+    "id": 5,
+    "description": "A reliable weather forecasting app that provides real-time updates, hourly and weekly forecasts, severe weather alerts, and location-based climate information.",
+    "size": 18,
+    "reviews": 1320,
+    "ratingAvg": 4.3,
+    "downloads": "6m",
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 85 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?6",
+    "title": "Language Learner",
+    "companyName": "EduSpark",
+    "id": 6,
+    "description": "An interactive language learning platform that offers daily lessons, pronunciation practice, vocabulary building, grammar exercises, and progress tracking for multiple languages.",
+    "size": 52,
+    "reviews": 1780,
+    "ratingAvg": 4.6,
+    "downloads": "10m",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 960 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?7",
+    "title": "Task Manager",
+    "companyName": "Productive Inc",
+    "id": 7,
+    "description": "A productivity-focused task management tool that helps users organize daily tasks, set priorities, track deadlines, and improve overall work efficiency.",
+    "size": 22,
+    "reviews": 860,
+    "ratingAvg": 4.1,
+    "downloads": "3m",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?8",
+    "title": "Budget Planner",
+    "companyName": "MoneyMind",
+    "id": 8,
+    "description": "A smart financial planning app that allows users to track expenses, manage monthly budgets, analyze spending habits, and improve long-term financial control.",
+    "size": 35,
+    "reviews": 1120,
+    "ratingAvg": 4.4,
+    "downloads": "4m",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 75 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?9",
+    "title": "Video Editor Lite",
+    "companyName": "ClipForge",
+    "id": 9,
+    "description": "A powerful yet easy-to-use video editing application that supports trimming, transitions, effects, music overlays, and quick exporting for social media platforms.",
+    "size": 120,
+    "reviews": 2450,
+    "ratingAvg": 4.8,
+    "downloads": "15m",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?10",
+    "title": "Secure VPN",
+    "companyName": "NetShield",
+    "id": 10,
+    "description": "A fast and secure VPN service designed to protect user privacy, encrypt internet traffic, bypass geo-restrictions, and ensure safe browsing on public networks.",
+    "size": 60,
+    "reviews": 1980,
+    "ratingAvg": 4.6,
+    "downloads": "8m",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1030 }
+    ]
+  },
+
+  { "image": "https://picsum.photos/200?11", "title": "PDF Scanner", "companyName": "DocuTech", "id": 11, "description": "A document scanning application that allows users to scan papers, convert them to PDFs, apply OCR, and share files securely.", "size": 25, "reviews": 740, "ratingAvg": 4.2, "downloads": "3m", "ratings": [ { "name": "1 star", "count": 40 }, { "name": "2 star", "count": 70 }, { "name": "3 star", "count": 130 }, { "name": "4 star", "count": 260 }, { "name": "5 star", "count": 240 } ] },
+  { "image": "https://picsum.photos/200?12", "title": "Meditation Plus", "companyName": "MindCare", "id": 12, "description": "A calming meditation and mindfulness app offering guided sessions, breathing exercises, sleep sounds, and stress relief programs.", "size": 40, "reviews": 1650, "ratingAvg": 4.7, "downloads": "7m", "ratings": [ { "name": "1 star", "count": 50 }, { "name": "2 star", "count": 80 }, { "name": "3 star", "count": 150 }, { "name": "4 star", "count": 500 }, { "name": "5 star", "count": 870 } ] },
+  { "image": "https://picsum.photos/200?13", "title": "Expense Tracker", "companyName": "FinTrack", "id": 13, "description": "An easy-to-use expense tracking app that helps users record daily spending, categorize expenses, and view monthly financial reports.", "size": 30, "reviews": 920, "ratingAvg": 4.3, "downloads": "4m", "ratings": [ { "name": "1 star", "count": 45 }, { "name": "2 star", "count": 75 }, { "name": "3 star", "count": 160 }, { "name": "4 star", "count": 300 }, { "name": "5 star", "count": 340 } ] },
+  { "image": "https://picsum.photos/200?14", "title": "QR Scanner", "companyName": "QuickScan", "id": 14, "description": "A fast and lightweight QR and barcode scanner that supports instant scanning, history tracking, and secure link previews.", "size": 12, "reviews": 580, "ratingAvg": 4.1, "downloads": "2m", "ratings": [ { "name": "1 star", "count": 35 }, { "name": "2 star", "count": 65 }, { "name": "3 star", "count": 120 }, { "name": "4 star", "count": 200 }, { "name": "5 star", "count": 160 } ] },
+  { "image": "https://picsum.photos/200?15", "title": "Cloud Storage", "companyName": "DataBox", "id": 15, "description": "A secure cloud storage solution that allows users to back up files, sync data across devices, and share content with ease.", "size": 80, "reviews": 2300, "ratingAvg": 4.5, "downloads": "11m", "ratings": [ { "name": "1 star", "count": 90 }, { "name": "2 star", "count": 130 }, { "name": "3 star", "count": 220 }, { "name": "4 star", "count": 700 }, { "name": "5 star", "count": 1160 } ] },
+  { "image": "https://picsum.photos/200?16", "title": "Calendar Pro", "companyName": "TimeFlow", "id": 16, "description": "A smart calendar app with reminders, scheduling tools, event syncing, and productivity-enhancing features.", "size": 26, "reviews": 810, "ratingAvg": 4.2, "downloads": "3m", "ratings": [ { "name": "1 star", "count": 50 }, { "name": "2 star", "count": 70 }, { "name": "3 star", "count": 140 }, { "name": "4 star", "count": 280 }, { "name": "5 star", "count": 270 } ] },
+  { "image": "https://picsum.photos/200?17", "title": "Password Vault", "companyName": "SecureKey", "id": 17, "description": "A secure password manager that stores credentials safely, generates strong passwords, and supports biometric authentication.", "size": 20, "reviews": 1900, "ratingAvg": 4.8, "downloads": "9m", "ratings": [ { "name": "1 star", "count": 40 }, { "name": "2 star", "count": 60 }, { "name": "3 star", "count": 120 }, { "name": "4 star", "count": 500 }, { "name": "5 star", "count": 1180 } ] },
+  { "image": "https://picsum.photos/200?18", "title": "News Daily", "companyName": "InfoNow", "id": 18, "description": "A daily news application delivering breaking news, personalized content, and in-depth articles from trusted sources.", "size": 34, "reviews": 1400, "ratingAvg": 4.1, "downloads": "6m", "ratings": [ { "name": "1 star", "count": 90 }, { "name": "2 star", "count": 120 }, { "name": "3 star", "count": 260 }, { "name": "4 star", "count": 500 }, { "name": "5 star", "count": 430 } ] },
+  { "image": "https://picsum.photos/200?19", "title": "Sleep Tracker", "companyName": "DreamLab", "id": 19, "description": "A sleep tracking application that monitors sleep cycles, provides insights, and offers tips to improve sleep quality.", "size": 24, "reviews": 1100, "ratingAvg": 4.4, "downloads": "5m", "ratings": [ { "name": "1 star", "count": 50 }, { "name": "2 star", "count": 80 }, { "name": "3 star", "count": 170 }, { "name": "4 star", "count": 400 }, { "name": "5 star", "count": 400 } ] },
+  { "image": "https://picsum.photos/200?20", "title": "E-Book Reader", "companyName": "Readify", "id": 20, "description": "A digital book reading app that supports multiple formats, night mode, bookmarks, and customizable reading preferences.", "size": 55, "reviews": 1750, "ratingAvg": 4.6, "downloads": "7m", "ratings": [ { "name": "1 star", "count": 60 }, { "name": "2 star", "count": 90 }, { "name": "3 star", "count": 160 }, { "name": "4 star", "count": 520 }, { "name": "5 star", "count": 920 } ] }
+]
