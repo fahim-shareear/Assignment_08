@@ -59,13 +59,13 @@ const Home = () => {
             </div>
 
             {/* Trending app section */}
-            <div className="w-full">
+            <div className="w-full mt-10">
                 <div className="lg:max-w-11/12 mx-auto  p-5">
                     <div className="title mx-auto text-center ">
                         <h1 className='text-3xl font-bold text-black'>Trending Apps</h1>
                         <p className="text-[13px] font-semibold text-gray-400">Explore All Trending Apps on the Market developed by us</p>
                     </div>
-                    <div className=" mx-auto">
+                    <div className=" mx-auto lg:mt-10 ">
                         <Homegrid appPromise={appPromise}></Homegrid>
                     </div>
                 </div>
