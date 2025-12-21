@@ -29,7 +29,7 @@ const Appdetails = () => {
                         </div>
                         <div className="side-details">
                             <div className="title mb-5">
-                                <h1 className="text-black font-bold">{app.title}</h1>
+                                <h1 className="text-black font-bold text-3xl">{app.title}</h1>
                                 <p className="text-[10px] text-black mt-2">Developed by <span className="font-bold text-purple-600 ml-2">{app.companyName}</span></p>
                             </div>
                             <hr className="border-t border-gray-500"/>
