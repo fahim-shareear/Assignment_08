@@ -1,9 +1,10 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { Link, useLoaderData, useParams } from 'react-router';
 import Downloadlogo from '../../assets/icon-downloads.png';
 import Ratingimg from '.././../assets/icon-ratings.png';
 import Reviewicon from '../../assets/icon-review.png';
 import { Bar, BarChart, Tooltip, XAxis, YAxis, ResponsiveContainer } from 'recharts';
+import { X } from 'lucide-react';
 
 const Appdetails = () => {
     const { id } = useParams();
@@ -19,6 +20,7 @@ const Appdetails = () => {
     }
     return (
         <div className="bg-gray-200 p-4 sm:p-6 md:p-8 lg:p-10">
+            <Link to={"/home"} className="absolute right-10 text-white cursor-pointer font-bold bg-purple-600 rounded-full p-1"><X></X></Link>
             <div className="lg:max-w-11/12  mx-auto mt-10 bg-gray-200">
                 <div className="lg:max-w-7/12 mx-auto  mb-5">
                     <div className="app-head flex items-center gap-9 mb-5">
