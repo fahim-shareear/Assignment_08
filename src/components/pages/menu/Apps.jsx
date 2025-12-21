@@ -5,7 +5,7 @@ import Gridforapppage from './Gridforapp/Gridforapppage';
 
 const Apps = () => {
     const appsData = useLoaderData();
-    console.log(appsData);
+    // console.log(appsData);
     return (
         <div className=" max-w-full">
             <div className="apps-banner lg:max-w-11/12 mx-auto  flex items-center justify-center flex-col p-5">

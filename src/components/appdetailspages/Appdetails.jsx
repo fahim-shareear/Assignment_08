@@ -1,18 +1,88 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
+import Downloadlogo from '../../assets/icon-downloads.png';
+import Ratingimg from '.././../assets/icon-ratings.png';
+import Reviewicon from '../../assets/icon-review.png';
+import { Bar, BarChart, Tooltip, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
 const Appdetails = () => {
     const { id } = useParams();
     const apps = useLoaderData();
 
-    const app = apps.find(a => a.id === Number(id))
+    const app = apps.find(a => a.id === Number(id));
+
+    // console.log(app);
+    const ratingsReversed = [...app.ratings].reverse();
 
     if(!app){
         return <p>App not Found</p>
     }
     return (
-        <div>
-            <h1>This page is for App details</h1>
+        <div className="bg-gray-200 p-4 sm:p-6 md:p-8 lg:p-10">
+            <div className="lg:max-w-11/12  mx-auto mt-10 bg-gray-200">
+                <div className="lg:max-w-7/12 mx-auto  mb-5">
+                    <div className="app-head flex items-center gap-9 mb-5">
+                        <div className="app-img">
+                            <img src={app.image} alt="applogo" />
+                        </div>
+                        <div className="side-details">
+                            <div className="title mb-5">
+                                <h1 className="text-black font-bold">{app.title}</h1>
+                                <p className="text-[10px] text-black mt-2">Developed by <span className="font-bold text-purple-600 ml-2">{app.companyName}</span></p>
+                            </div>
+                            <hr className="border-t border-gray-500"/>
+                            <div >
+                                <div className="flex items-center gap-5 mt-5">
+                                    <div className="mr-4">
+                                        <img src={Downloadlogo} width={20} height={20}/>
+                                        <p className="font-bold text-black text-[15px] mb-3 mt-1">Downloads</p>
+                                        <h3 className="uppercase font-bold text-2xl text-black">{app.downloads}</h3>
+                                    </div>
+                                    <div className="mr-4">
+                                        <img src={Ratingimg} width={20} height={20}/>
+                                        <p className="font-bold text-black text-[15px] mb-3 mt-1">Average Ranking</p>
+                                        <h3 className="uppercase font-bold text-2xl text-black">{app.ratingAvg}</h3>
+                                    </div>
+                                    <div className="mr-4">
+                                        <img src={Reviewicon} width={20} height={20}/>
+                                        <p className="font-bold text-black text-[15px] mb-3 mt-1">Total Reviews</p>
+                                        <h3 className="uppercase font-bold text-2xl text-black">{app.reviews}</h3>
+                                    </div>
+                                </div>
+                                <button className="bg-[#0abb83] p-3 rounded-md font-bold mt-2">Install Now ({app.size} MB)</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr className="border-t border-gray-500"/>
+                    {/* rating chart section */}
+
+                    <div className="w-full h-64">
+                        <h1 className="font-bold text-black">Ratings</h1>
+                        <ResponsiveContainer width="100%" height="100%">
+                            <BarChart
+                            data={ratingsReversed}
+                            layout="vertical" // horizontal bars
+                            margin={{ top: 20, right: 30, left: 50, bottom: 20 }}
+                            >
+                            <XAxis type="number" />           {/* bar length */}
+                            <YAxis type="category" dataKey="name" /> {/* rating names */}
+                            <Tooltip />
+                            <Bar dataKey="count" fill="#ff8811" />
+                            </BarChart>
+                        </ResponsiveContainer>
+                    </div>
+
+                    <hr className="border-t border-gray-500"/>
+
+                    {/* description section */}
+                    <div>
+                        <h1 className="text-black font-bold mb-4">Description</h1>
+                        <div>
+                            <p className="text-[15px] text-black text-left">{app.description}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
