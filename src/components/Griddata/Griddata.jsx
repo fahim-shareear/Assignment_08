@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 const Griddata = ({promise}) => {
     // console.log(promise);
     return (
-        <Link to={`/app/${'promise.id'}`}>
+        <Link to={`/app/${promise.id}`}>
             <div className="rounded-xl overflow-hidden bg-white shadow-md transform transition duration-300 hover:scale-105 hover:shadow-lg cursor-pointer">
                 <div className="p-3">
                     <img src={promise.image} alt="appimg" className="rounded-xl w-full aspect-square object-cover"/>
