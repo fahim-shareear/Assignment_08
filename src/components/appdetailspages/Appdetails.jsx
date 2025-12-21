@@ -58,7 +58,7 @@ const Appdetails = () => {
                     <hr className="border-t border-gray-500"/>
                     {/* rating chart section */}
 
-                    <div className="w-full h-64">
+                    <div className="w-full h-64 mb-5">
                         <h1 className="font-bold text-black">Ratings</h1>
                         <ResponsiveContainer width="100%" height="100%">
                             <BarChart
@@ -77,7 +77,7 @@ const Appdetails = () => {
                     <hr className="border-t border-gray-500"/>
 
                     {/* description section */}
-                    <div>
+                    <div className="mt-5">
                         <h1 className="text-black font-bold mb-4">Description</h1>
                         <div>
                             <p className="text-[15px] text-black text-left">{app.description}</p>
