@@ -1,5 +1,6 @@
 import React, { use } from 'react';
 import Griddata from './Griddata';
+import { NavLink } from 'react-router';
 
 const Homegrid = ({appPromise}) => {
     const promises = use(appPromise);
@@ -12,7 +13,9 @@ const Homegrid = ({appPromise}) => {
                 }
             </div>
             <div className="flex items-center justify-center mt-10">
-                <button className="btn border-none rounded-md font-semibold text-[14px] p-1 w-30 cursor-pointer bg-linear-to-br from-purple-800 to-purple-400">Show All</button>
+                <button className="btn border-none rounded-md font-semibold text-[14px] p-1 w-30 cursor-pointer bg-linear-to-br from-purple-800 to-purple-400">
+                    <NavLink to={"/apps"}>Show All</NavLink>
+            </button>
             </div>
         </div>
     );

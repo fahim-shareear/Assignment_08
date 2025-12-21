@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import { StrictMode, Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router'
@@ -13,7 +13,11 @@ const router = createBrowserRouter([
     children:[
       {index: true, Component: Home},
       {path: 'home', Component: Home},
-      {path: 'apps', Component: Apps},
+      {path: 'apps',
+        loader: () => fetch("/Appdata.json"), 
+        element: <Suspense fallback={<span className="loading loading-spinner text-error absolute top-50% left-50% transform translate(-50%, -50%) w-300"></span>}>
+          <Apps></Apps>
+        </Suspense>},
       {path: 'installation', Component: Installation}
     ]
   }
