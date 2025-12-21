@@ -124,5 +124,131 @@
       { "name": "4 star", "count": 300 },
       { "name": "5 star", "count": 270 }
     ]
+  },
+   {
+    "image": "https://picsum.photos/200?8",
+    "title": "Budget Planner",
+    "companyName": "MoneyMind",
+    "id": 8,
+    "description": "Budget Planner is a smart financial management application designed to help users track expenses, plan monthly budgets, and achieve financial goals efficiently. The app allows users to categorize spending, monitor income and expenses, and visualize cash flow with detailed charts and graphs. It supports multiple accounts, recurring transactions, and bill reminders to prevent late payments. Budget Planner includes savings tracking, goal setting, and alerts to keep users on track for short-term and long-term objectives. Users can generate financial reports to analyze spending habits and make informed decisions. The app also offers integration with bank accounts for automatic transaction import, ensuring accuracy and reducing manual entry. Customizable categories and budget templates allow users to tailor the app to their personal financial situation. Budget Planner emphasizes ease of use with an intuitive interface and clear visual cues, making it suitable for both beginners and experienced budgeters. The app empowers users to manage their finances proactively, avoid overspending, and build better money habits. Whether planning for daily expenses, monthly bills, or long-term savings, Budget Planner offers comprehensive tools to maintain financial stability and growth while providing insights to improve money management skills.",
+    "size": 35,
+    "reviews": 1120,
+    "ratingAvg": 4.4,
+    "downloads": "4m",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 75 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?9",
+    "title": "Video Editor Lite",
+    "companyName": "ClipForge",
+    "id": 9,
+    "description": "Video Editor Lite is an easy-to-use yet powerful video editing application that allows users to create, edit, and enhance videos for personal or professional purposes. It includes features such as trimming, cutting, merging clips, adding transitions, text overlays, and applying filters or visual effects. Users can adjust brightness, contrast, saturation, and speed to achieve the desired look for their videos. The app supports multiple video formats and resolutions, ensuring compatibility with social media platforms and devices. Video Editor Lite also offers audio editing capabilities, including background music addition, volume control, and voiceovers. With a simple drag-and-drop interface, users can quickly arrange clips and create engaging content without needing prior experience. The app includes templates and preset effects for faster editing and inspiration. It supports exporting videos in various formats and resolutions while maintaining quality. Video Editor Lite is optimized for performance, ensuring smooth editing even on mobile devices. Ideal for vloggers, students, content creators, and casual users, this app combines accessibility and advanced features, allowing anyone to produce professional-looking videos efficiently and creatively, whether for social media, presentations, or personal projects.",
+    "size": 120,
+    "reviews": 2450,
+    "ratingAvg": 4.8,
+    "downloads": "15m",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?10",
+    "title": "Secure VPN",
+    "companyName": "NetShield",
+    "id": 10,
+    "description": "Secure VPN is a fast and reliable virtual private network application designed to protect user privacy, encrypt internet traffic, and provide secure browsing on public networks. The app hides IP addresses, allowing users to access geo-restricted content and maintain anonymity online. Secure VPN includes multiple server locations worldwide to optimize connection speed and reliability. Users can enable automatic connection on untrusted networks, ensuring continuous protection against cyber threats. The app provides a no-log policy, ensuring that user activity is never recorded. It supports high-speed streaming, downloads, and gaming without interruptions. Secure VPN also includes advanced features such as split tunneling, kill switch, and DNS leak protection for comprehensive security. Its intuitive interface allows users to connect with a single tap and monitor connection status easily. The app is lightweight, optimized for mobile devices, and consumes minimal battery while maintaining robust encryption standards. Ideal for individuals, travelers, and professionals concerned about online privacy, Secure VPN ensures secure internet access, prevents data theft, and maintains confidentiality while browsing, streaming, or working online from any location.",
+    "size": 60,
+    "reviews": 1980,
+    "ratingAvg": 4.6,
+    "downloads": "8m",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1030 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?11",
+    "title": "PDF Scanner",
+    "companyName": "DocuTech",
+    "id": 11,
+    "description": "PDF Scanner is an efficient and powerful document scanning application that enables users to digitize physical documents quickly and accurately. It allows scanning of papers, receipts, invoices, business cards, and other documents using the device camera. The app automatically detects edges, enhances image clarity, and converts scans into high-quality PDFs or images. PDF Scanner also includes Optical Character Recognition (OCR) to extract text from images, making it editable and searchable. Users can organize scanned documents into folders, rename files, and share them through email or cloud services. It supports batch scanning, allowing multiple pages to be combined into a single PDF. Security features, including password protection and encryption, ensure sensitive information remains safe. The app provides annotation tools to highlight, add notes, and draw on scanned documents. With a user-friendly interface, fast processing, and advanced features, PDF Scanner is ideal for students, professionals, and business users who need to manage, store, and share documents digitally, streamlining workflows, improving organization, and enhancing productivity.",
+    "size": 25,
+    "reviews": 740,
+    "ratingAvg": 4.2,
+    "downloads": "3m",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 240 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?12",
+    "title": "Meditation Plus",
+    "companyName": "MindCare",
+    "id": 12,
+    "description": "Meditation Plus is a calming and mindfulness-focused application designed to help users reduce stress, improve focus, and enhance mental well-being. It offers guided meditation sessions, breathing exercises, and relaxation programs suitable for beginners and experienced practitioners. Users can choose from various meditation techniques, including mindfulness, body scan, visualization, and sleep meditation. The app includes ambient sounds, nature music, and customizable timers to create a serene and distraction-free environment. Meditation Plus tracks progress, daily streaks, and session history to encourage consistent practice. It also provides educational content about meditation benefits, stress management, and mental health tips. Notifications and reminders help users maintain a regular meditation routine. Offline mode ensures access to guided sessions without internet connectivity. The app is designed with an intuitive interface, smooth animations, and gentle cues to enhance the user experience. Suitable for individuals seeking relaxation, stress relief, or personal growth, Meditation Plus supports mental clarity, emotional balance, and overall well-being through structured and immersive mindfulness practices.",
+    "size": 40,
+    "reviews": 1650,
+    "ratingAvg": 4.7,
+    "downloads": "7m",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 870 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?13",
+    "title": "Expense Tracker",
+    "companyName": "FinTrack",
+    "id": 13,
+    "description": "Expense Tracker is a user-friendly financial management app that helps individuals monitor daily spending, track income, and manage budgets efficiently. Users can categorize expenses, set limits, and visualize spending habits with clear graphs and charts. The app supports multiple accounts, recurring transactions, and bill reminders to maintain financial discipline. It provides insights on saving opportunities and alerts to prevent overspending. Expense Tracker allows users to generate detailed reports, analyze trends, and make informed decisions to improve money management skills. Integration with bank accounts and payment apps allows automatic transaction tracking, saving time and improving accuracy. Security features ensure that sensitive financial data is protected. The intuitive interface makes the app suitable for beginners and experienced users alike. Ideal for students, professionals, and families, Expense Tracker promotes financial awareness, accountability, and better control over personal finances, supporting users in achieving short-term and long-term monetary goals.",
+    "size": 30,
+    "reviews": 920,
+    "ratingAvg": 4.3,
+    "downloads": "4m",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 75 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?14",
+    "title": "QR Scanner",
+    "companyName": "QuickScan",
+    "id": 14,
+    "description": "QR Scanner is a fast, secure, and lightweight application designed to read QR codes and barcodes instantly using the device camera. The app can scan URLs, contact details, product information, Wi-Fi credentials, and more. It supports generating custom QR codes for sharing personal or business data easily. QR Scanner ensures high-speed scanning, even in low-light conditions, and provides clear visual feedback upon successful scans. Users can save scan history, favorite codes, and export results for reference or sharing. The app includes security features to warn users about potentially malicious links. QR Scanner integrates with other applications to enable quick access to scanned content, such as opening websites, saving contacts, or connecting to networks. The interface is intuitive and designed for efficiency, making it easy for users of all ages and technical backgrounds to scan, manage, and create QR codes effortlessly. Ideal for personal, educational, and business use, QR Scanner provides a reliable and convenient tool for digital interactions, marketing, and data management.",
+    "size": 12,
+    "reviews": 580,
+    "ratingAvg": 4.1,
+    "downloads": "2m",
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 160 }
+    ]
   }
 ]
