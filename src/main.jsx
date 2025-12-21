@@ -17,7 +17,7 @@ const router = createBrowserRouter([
       {
         path: 'home',
         loader: () => fetch("/Appdata.json"),
-        element: <Suspense>
+        element: <Suspense fallback={<span className="loading loading-spinner text-error absolute top-50% left-50% transform translate(-50%, -50%) w-300"></span>}>
           <Home></Home>
         </Suspense>
       },
