@@ -12,7 +12,7 @@ const Homegrid = ({appPromise}) => {
                 }
             </div>
             <div className="flex items-center justify-center mt-10">
-                <button className="rounded-md font-semibold text-[14px] p-1 w-30 cursor-pointer bg-linear-to-br from-purple-800 to-purple-400">Show All</button>
+                <button className="btn border-none rounded-md font-semibold text-[14px] p-1 w-30 cursor-pointer bg-linear-to-br from-purple-800 to-purple-400">Show All</button>
             </div>
         </div>
     );
