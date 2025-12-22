@@ -7,11 +7,13 @@ import Home from './components/pages/Home.jsx'
 import Apps from './components/pages/menu/Apps.jsx'
 import Installation from './components/pages/menu/Installation.jsx'
 import Appdetails from './components/appdetailspages/Appdetails.jsx'
+import PageNotFound from './components/errorpages/PageNotFound.jsx'
 
 
 const router = createBrowserRouter([
   {
     path: '/', Component: Root,
+    errorElement: <PageNotFound></PageNotFound>,
     children: [
       { index: true, Component: Home },
       {
