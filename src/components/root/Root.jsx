@@ -12,7 +12,6 @@ const Root = () => {
             <Navigation></Navigation>
             <Outlet></Outlet>
             <Footer></Footer>
-            <PageNotFound></PageNotFound>
         </div>
     );
 };
