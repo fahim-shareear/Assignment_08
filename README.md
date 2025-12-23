@@ -10,10 +10,15 @@ Technologies Used for this project:
     i. Javascript.
     ii. React hooks -->
         useEffect
+
         useLoaderData
+
         useParams
+
         useState
+
         use
+        
         useNavigation
         
 3. NPM Packages:
