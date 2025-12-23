@@ -4,7 +4,7 @@ import { Codepen, Facebook, Github, Twitter } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <div className="bg-[#001931]  mx-auto rounded-t-xl h-[20vh]">
+        <div className="bg-[#001931]  mx-auto rounded-t-xl">
             <div className="m-5 lg:max-w-11/12 mx-auto p-2 flex flex-col items-start gap-6
                 lg:flex-row lg:items-center lg:justify-between">
                 <div className="max-w-150">

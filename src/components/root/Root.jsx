@@ -5,6 +5,7 @@ import Navigation from '../pages/Navigation';
 import Footer from '../pages/Footer';
 import '../../App.css';
 import PageNotFound from '../errorpages/PageNotFound';
+import { ToastContainer } from 'react-toastify';
 
 const Root = () => {
     return (
@@ -12,6 +13,7 @@ const Root = () => {
             <Navigation></Navigation>
             <Outlet></Outlet>
             <Footer></Footer>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
