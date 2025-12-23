@@ -107,8 +107,7 @@ const Appdetails = () => {
                                 <button
                                     className="bg-[#0abb83] p-3 rounded-md font-bold mt-2 cursor-pointer"
                                     onClick={handleInstalledId}
-                                >
-                                    Install Now ({app.size} MB)
+                                >Install Now ({app.size} MB)
                                 </button>
                             </div>
                         </div>
