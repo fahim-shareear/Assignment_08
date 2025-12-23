@@ -1,6 +1,6 @@
 https://lucent-kringle-d725e6.netlify.app/
 
-Application name: HEROAPP.IO.
+Application name: HERO.IO.
 
 Description: This project is an application market place for gettin the best for any device like Android and IOS operating system. Build for the people who love to explore.
 
