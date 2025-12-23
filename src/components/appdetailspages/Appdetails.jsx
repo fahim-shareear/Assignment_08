@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData, useParams, useNavigate } from 'react-router';
+import { useLoaderData, useParams, useNavigate} from 'react-router';
 import Downloadlogo from '../../assets/icon-downloads.png';
 import Ratingimg from '.././../assets/icon-ratings.png';
 import Reviewicon from '../../assets/icon-review.png';
@@ -7,6 +7,7 @@ import { Bar, BarChart, Tooltip, XAxis, YAxis, ResponsiveContainer } from 'recha
 import { X } from 'lucide-react';
 import { toast } from 'react-toastify';
 import { getInstalledApps } from '../utilities/utilities';
+import { useState } from 'react';
 
 const Appdetails = () => {
     const { id } = useParams();
@@ -16,6 +17,10 @@ const Appdetails = () => {
     const app = apps.find(a => a.id === Number(id));
 
     const ratingsReversed = [...app.ratings].reverse();
+
+    const [isInstalled, setIsInstalled] = useState(
+        getInstalledApps().some(item => item.id === app.id)
+    );
 
     const addToLS = (app) => {
         const installedApps = getInstalledApps();
@@ -34,6 +39,7 @@ const Appdetails = () => {
         );
 
         toast("App has been installed successfully");
+        setIsInstalled(true);
     };
 
     const handleInstalledId = () => {
@@ -107,7 +113,8 @@ const Appdetails = () => {
                                 <button
                                     className="bg-[#0abb83] p-3 rounded-md font-bold mt-2 cursor-pointer"
                                     onClick={handleInstalledId}
-                                >Install Now ({app.size} MB)
+                                    disabled={isInstalled}
+                                >{isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
                                 </button>
                             </div>
                         </div>
